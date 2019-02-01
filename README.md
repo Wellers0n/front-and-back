@@ -7,4 +7,5 @@ construindo um tinder backend e frontend para evoluir minhas skills
 <img src="img.png" align="center" />
 
 
-**PS:** está em construção ainda!
+
+**PS:** Ainda está em construção!
