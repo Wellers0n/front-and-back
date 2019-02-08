@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "5c48b24e1b121e56ee65aa5d",
+    "nome": "tobi",
+    "email": "tobi@gmail.com",
+    "senha": 1234
+  },
+  {
+    "_id": "5c48b26c1b121e56ee65aa5e",
+    "nome": "wellerson",
+    "email": "wellerson@gmail.com",
+    "senha": 1234
+  },
+  {
+    "_id": "5c52f62fe50a3c350136550f",
+    "nome": "jiraya",
+    "email": "jiraya@gmail.com",
+    "senha": 321,
+    "__v": 0
+  }
+]

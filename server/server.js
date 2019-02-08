@@ -9,11 +9,14 @@ import mongoose from 'mongoose';
 let app = new koa();
 let router = new route()
 
+console.log(bodyParse())
+
 //middlewares
+app.use(bodyParse());
 app.use(router.routes());
+app.use(router.allowedMethods());
 app.use(logger());
 app.use(json());
-app.use(bodyParse())
 
 mongoose.connect('mongodb://localhost:27017/tinder')
 

@@ -1,0 +1,454 @@
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+
+{"email":" wellerson", "senha": "1234"}
+
+<> 2019-02-07T115812.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+
+{"email":" wellerson", "senha": "1234"}
+
+<> 2019-02-07T115810.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+
+{"email":" wellerson", "senha": "1234"}
+
+<> 2019-02-07T115751.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+
+{"email":" wellerson", "senha": "1234"}
+
+<> 2019-02-07T115747.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+
+{"email":" wellerson", "senha": "1234"}
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+
+{"email":" wellerson", "senha": "1234"}
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+
+{"email":" wellerson", "senha": "1234"}
+
+<> 2019-02-07T115731.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T115621.200.json
+
+###
+
+GET http://localhost:3000/users?nome=wellerson
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T115556-1.200.json
+
+###
+
+GET http://localhost:3000/users?nome=wellerson
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T115556.200.json
+
+###
+
+GET http://localhost:3000/users?nome=wellerson
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T115528.200.json
+
+###
+
+GET http://localhost:3000/users?nome=wellerson
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T114134.200.json
+
+###
+
+GET http://localhost:3000/users?nome=wellerson
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T114124.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T112417.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T112416.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T112415.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T112413-1.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T112413.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T112411.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com.br
+senha: 1234
+
+<> 2019-02-07T112403.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com.br
+senha: 1234
+
+<> 2019-02-07T112401.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com.br
+senha: 1234
+
+<> 2019-02-07T111342.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T111334.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T111301.500.txt
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T111256.500.txt
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T111255.500.txt
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T111253.500.txt
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+email: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T111252.500.txt
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson@gmail.com
+senha: 1234
+
+<> 2019-02-07T111238.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson@hotmail.com
+senha: 1234
+
+<> 2019-02-07T111219.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson@hotmail.com
+senha: 1234
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson@hotmail.com
+senha: 1234
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson
+senha: 1234
+
+<> 2019-02-07T111150.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson
+senha: 1234
+
+<> 2019-02-07T111031.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson
+senha: 1234
+
+<> 2019-02-07T111008.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson
+senha: 1234
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson
+senha: 1234
+
+<> 2019-02-07T111000.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson
+senha: 1234
+
+<> 2019-02-07T110954.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson
+senha: 1234
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+nome: wellerson
+senha: 1234
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=1234
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110905.200.json
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=1234
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110834.200.json
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=1234
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110749.200.json
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=1234
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110739.200.json
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=1234
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110637.200.json
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=1234
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110635.200.json
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=1234
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110632.200.json
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=555
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110613.200.json
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=555
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110610.200.json
+
+###
+
+POST http://localhost:3000/user?nome=wellerson&senha=555
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-07T110550.200.json
+
+###
+
