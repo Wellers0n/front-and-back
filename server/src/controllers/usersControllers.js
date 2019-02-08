@@ -5,9 +5,7 @@ import jwt from 'jsonwebtoken';
 export async function list_all_users(ctx) {
     try {
         let user = await Users.find({});
-        //ctx.body = user;
-        console.log(JSON.stringify(ctx.request.body))
-        ctx.body = ctx.request;
+        ctx.body = user;
 
 
     } catch (err) {

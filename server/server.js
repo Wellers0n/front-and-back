@@ -9,8 +9,6 @@ import mongoose from 'mongoose';
 let app = new koa();
 let router = new route()
 
-console.log(bodyParse())
-
 //middlewares
 app.use(bodyParse());
 app.use(router.routes());
