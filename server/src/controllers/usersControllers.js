@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import Users from './../models/usersModels.js';
 import jwt from 'jsonwebtoken';
 
-export async function list_all_users(ctx) {
+export async function listAllUsers(ctx) {
     try {
         let user = await Users.find({});
         ctx.body = user;
@@ -15,7 +15,7 @@ export async function list_all_users(ctx) {
 
 }
 
-export async function login_user(ctx) {
+export async function loginUser(ctx) {
     let req = ctx.request.body;
     console.log(req)
     let user = await Users.findOne({email: req.email, senha: req.senha})
@@ -25,9 +25,9 @@ export async function login_user(ctx) {
             expiresIn: 300 //expires in 5min
         });
 
-        ctx.body = {result: true, token: token}
+        ctx.body = {Authentication: token}
     } else {
-        ctx.body = {result: false, msg: 'Login invalido!'}
+        ctx.status = 401
     }
 
 }

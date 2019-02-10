@@ -5,9 +5,10 @@ import json from 'koa-json';
 import bodyParse from 'koa-bodyparser'
 import routes from './src/routes/usersRouter.js'
 import mongoose from 'mongoose';
+
 //init koa and router
 let app = new koa();
-let router = new route()
+let router = new route();
 
 //middlewares
 app.use(bodyParse());
@@ -16,7 +17,7 @@ app.use(router.allowedMethods());
 app.use(logger());
 app.use(json());
 
-mongoose.connect('mongodb://localhost:27017/tinder')
+mongoose.connect('mongodb://localhost:27017/tinder');
 
 routes(router)
 
