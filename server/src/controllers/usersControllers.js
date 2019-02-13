@@ -3,14 +3,13 @@ import Users from './../models/usersModels.js';
 import jwt from 'jsonwebtoken';
 
 export async function listAllUsers(ctx) {
-    try {
+    if(ctx.state.user) {
+        console.log('aqui: '+ctx.state.user)
         let user = await Users.find({});
         ctx.body = user;
 
-
-    } catch (err) {
-        ctx.status = err.status || 500;
-        ctx.body = err.message
+    } else {
+        ctx.status = 401;
     }
 
 }
