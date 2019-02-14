@@ -5,7 +5,7 @@ import json from 'koa-json';
 import bodyParse from 'koa-bodyparser'
 import routes from './src/routes/usersRouter.js'
 import mongoose from 'mongoose';
-import cors from 'kcors';
+import cors from '@koa/cors';
 
 
 //init koa and router
@@ -19,9 +19,6 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 app.use(logger());
 app.use(json());
-app.use(async (ctx, next) => {
-    ctx.header = "Access-Control-Allow-Origin";
-})
 
 mongoose.connect('mongodb://localhost:27017/tinder');
 

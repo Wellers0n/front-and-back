@@ -20,6 +20,8 @@ export default class Login extends Component {
                 headers:{
                     'Content-Type': 'application/json',
                     'Accept': 'application/json',
+                    'Access-Control-Allow-Origin': 'http://127.0.0.1:3002',
+                    'Access-Control-Allow-mode': 'no-cors'
                 },
                 body:{
                     email: 'wellerson@gmail.com',
