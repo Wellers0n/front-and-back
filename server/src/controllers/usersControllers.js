@@ -21,7 +21,7 @@ export async function loginUser(ctx) {
     if (user) {
         const id = user._id;
         let token = jwt.sign({id}, 'batman', {
-            expiresIn: 300 //expires in 5min
+            expiresIn: 300 //5min
         });
 
         ctx.body = {Authentication: token}
