@@ -198,3 +198,11 @@ main {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
 }
+
+.logado {
+  background-color: red;
+  height: 500px;
+  width: 200px;
+  padding-top: 100px;
+  color: black
+}
