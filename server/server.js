@@ -33,4 +33,4 @@ mongoose.connect('mongodb://localhost:27017/tinder');
 
 routes(router)
 
-app.listen(8080, () => console.log(`port: ${'http://localhost:8080'}`))
+app.listen(3005, () => console.log(`port: ${'http://localhost:3005'}`))
