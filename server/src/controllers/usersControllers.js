@@ -35,13 +35,13 @@ export async function loginUser(ctx) {
 export async function usersMatch(ctx){
     const user = ctx.state.user;
     if(user) {
-        let arr = [user]
         let usersMatch = await UsersMatch.find({idGaveLiked: {$eq: user}});
         console.log(usersMatch)
-        usersMatch.map((item) => {
-            return arr.push(mongoose.Types.ObjectId(item.idReceivedLiked))
-        })
-        let getUsers = await Users.find({_id: {$nin: arr}})
+        const $nin = usersMatch.map((item) => {
+            return mongoose.Types.ObjectId(item.idReceivedLiked)
+        });
+        console.log($nin)
+        let getUsers = await Users.find({_id: {$nin: [...$nin, user]}})
         ctx.body = getUsers
     } else {
         ctx.status = 401;
