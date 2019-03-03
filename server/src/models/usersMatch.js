@@ -1,10 +1,14 @@
 import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
-const usersMatch = Schema({
+const matchSchema = new Schema({
     idGaveLiked: {
         type: String,
         required: 'id gave liked on user',
+    },
+    idReceivedLiked:{
+        type: String,
+        required: 'id Received liked on user',
     },
     liked:{
         type: Boolean,
@@ -12,4 +16,4 @@ const usersMatch = Schema({
     }
 });
 
-export default mongoose.model('usersMatch', usersMatch)
+export default mongoose.model('matchs', matchSchema)
