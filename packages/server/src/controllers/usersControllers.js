@@ -47,3 +47,16 @@ export async function usersMatch(ctx){
         ctx.status = 401;
     }
 }
+
+export async function getUsersLiked(ctx){
+    const user = ctx.state.user;
+    if(user){
+        let usersMatch = await UsersMatch.find({idGaveLiked: {$eq: user}, liked: {$eq: true}});
+        const liked = usersMatch.map((user) => {
+            return mongoose.Types.ObjectId(user.idReceivedLiked)
+        });
+        console.log(liked)
+        const result = await Users.find({_id: {$in: liked}});
+        ctx.body = result
+    }
+}

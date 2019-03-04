@@ -20,7 +20,7 @@ class Login extends Component {
     }
     async logar(){
         try{
-            const data = await fetch('http://127.0.0.1:8080/login', {
+            const data = await fetch('http://127.0.0.1:3001/login', {
                 method: 'POST',
                 headers:{
                     'Content-Type': 'application/json',
